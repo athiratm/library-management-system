@@ -2,6 +2,8 @@
 To manage book addition to library , borrow and return from library<br />
 swagger url for the application http://localhost:8080/swagger-ui/index.html#/<br />
 Database - MySQL ,name-librarydb<br />
+# Command to run the application <br />
+mvn spring-boot:run<br />
 # API Endpoints are given below: <br />
 ● Implement RESTful endpoints to handle the following operations:<br />
 ● Book management endpoints:<br />
