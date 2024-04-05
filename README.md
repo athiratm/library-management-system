@@ -2,6 +2,11 @@
 To manage book addition to library , borrow and return from library<br />
 swagger url for the application http://localhost:8080/swagger-ui/index.html#/<br />
 Database - MySQL ,name-librarydb<br />
+make this property(application.properties) spring.jpa.hibernate.ddl-auto = create for initial run, and change it to "update" after that<br/>
+Postman collection attached in src/main/resources/LMS.postman_collection.json<br/>
+
+
+
 # Command to run the application <br />
 mvn spring-boot:run<br />
 # API Endpoints are given below: <br />
