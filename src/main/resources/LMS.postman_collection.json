@@ -1,0 +1,316 @@
+{
+	"info": {
+		"_postman_id": "2363e829-4af8-4bd2-8d7b-3f17b0a870b4",
+		"name": "LMS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1832531"
+	},
+	"item": [
+		{
+			"name": "Book Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"isbn\": \"9876579\",\r\n        \"title\": \"gdhfd\",\r\n        \"author\": \"author3\",\r\n        \"yearOfPublication\":\"2020\"\r\n\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bookapi/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookapi",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bookapi/books/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookapi",
+						"books",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"isbn\": \"9876574\",\r\n        \"title\": \"drawing book\",\r\n        \"author\": \"author4\",\r\n        \"yearOfPublication\":\"2020\"\r\n\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bookapi/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookapi",
+						"books",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bookapi/books/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookapi",
+						"books",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bookapi/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookapi",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patron Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"xyz\",\r\n        \"phone\": \"8989999999\",\r\n        \"email\": \"test2@test.com\"\r\n\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patronapi/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patronapi",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patron Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patronapi/patrons/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patronapi",
+						"patrons",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patron Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"abcd\",\r\n        \"phone\": \"8989999\",\r\n        \"email\": \"test@test.com\"\r\n\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patronapi/patrons/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patronapi",
+						"patrons",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patron Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patronapi/patrons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patronapi",
+						"patrons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patron Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patronapi/patrons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patronapi",
+						"patrons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrow Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/borrowapi/borrow/4/patron/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"borrowapi",
+						"borrow",
+						"4",
+						"patron",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Return Book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"isbn\": \"9876572\",\r\n        \"title\": \"story book\",\r\n        \"author\": \"author1\",\r\n        \"yearOfPublication\":\"2020\"\r\n\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/borrowapi/return/4/patron/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"borrowapi",
+						"return",
+						"4",
+						"patron",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
