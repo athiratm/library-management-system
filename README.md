@@ -2,7 +2,7 @@
 To manage book addition to library , borrow and return from library
 swagger url for the application http://localhost:8080/swagger-ui/index.html#/
 Database - MySQL ,name-librarydb
-API Endpoints are given below:
+# API Endpoints are given below:
 ● Implement RESTful endpoints to handle the following operations:
 ● Book management endpoints:
 ● GET /bookapi/books: Retrieve a list of all books.
