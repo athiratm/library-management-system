@@ -11,11 +11,11 @@ Database - MySQL ,name-librarydb<br />
 ● PUT /bookapi/books/{id}: Update an existing book's information.<br />
 ● DELETE /bookapi/books/{id}: Remove a book from the library.<br />
 ● Patron management endpoints:<br />
-● GET /patronapi/patrons: Retrieve a list of all patrons.
-● GET /patronapi/patrons/{id}: Retrieve details of a specific patron by ID.
-● POST /patronapi/patrons: Add a new patron to the system.
-● PUT /patronapi/patrons/{id}: Update an existing patron's information.
-● DELETE /patronapi/patrons/{id}: Remove a patron from the system.
-● Borrowing endpoints:
-● POST /borrowapi/borrow/{bookId}/patron/{patronId}: Allow a patron to borrow a book.
-● PUT /borrowapi/return/{bookId}/patron/{patronId}: Record the return of a borrowed book by a patron.
+● GET /patronapi/patrons: Retrieve a list of all patrons.<br />
+● GET /patronapi/patrons/{id}: Retrieve details of a specific patron by ID.<br />
+● POST /patronapi/patrons: Add a new patron to the system.<br />
+● PUT /patronapi/patrons/{id}: Update an existing patron's information.<br />
+● DELETE /patronapi/patrons/{id}: Remove a patron from the system.<br />
+● Borrowing endpoints:<br />
+● POST /borrowapi/borrow/{bookId}/patron/{patronId}: Allow a patron to borrow a book.<br />
+● PUT /borrowapi/return/{bookId}/patron/{patronId}: Record the return of a borrowed book by a patron.<br />
